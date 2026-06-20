@@ -1,0 +1,4 @@
+Classes: ['coke can', 'pepsi can', 'soda can', 'cracker', 'chewing gum', 'milk', 'snack', 'beverage']
+
+pepsi can: 0.16 [794,140,981,415]
+pepsi can: 0.16 [1077,4,1536,787]

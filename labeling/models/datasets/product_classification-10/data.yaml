@@ -1,0 +1,21 @@
+names:
+- can_coke_decaf
+- can_coke_zero
+- can_pepsi
+- can_pepsi_zero
+- cracker_ace
+- cracker_vege
+- gum_green
+- gum_yellow
+- milk_blue
+- milk_green
+nc: 10
+roboflow:
+  license: CC BY 4.0
+  project: product_classification-vo9mz
+  url: https://universe.roboflow.com/s-workspace-orwiy/product_classification-vo9mz/dataset/10
+  version: 10
+  workspace: s-workspace-orwiy
+test: ../test/images
+train: ../train/images
+val: ../valid/images

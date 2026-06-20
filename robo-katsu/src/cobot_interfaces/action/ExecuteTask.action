@@ -1,0 +1,18 @@
+# Goal
+string task_name
+string task_id
+---
+# Result
+bool success
+string message
+uint32 completed_steps
+builtin_interfaces/Duration elapsed_time
+---
+# Feedback
+uint32 current_step
+uint32 total_steps
+float32 progress              # 0.0 ~ 1.0
+string current_step_name
+float64[6] current_posj       # Joint position [deg]
+float64[6] current_posx       # Task position [mm, deg]
+string message

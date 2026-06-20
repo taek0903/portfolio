@@ -1,0 +1,8 @@
+# Request
+string task_name              # Name of the task to execute
+string task_id                # Optional: unique ID for tracking (auto-generated if empty)
+---
+# Response
+bool success
+string message
+string task_id                # Assigned task ID

@@ -1,0 +1,5 @@
+Task: OPEN_VOC
+Query: chewing gum
+Raw: {'<OPEN_VOCABULARY_DETECTION>': {'bboxes': [[196, 684, 557, 954]], 'bboxes_labels': ['chewing gum'], 'polygons': [], 'polygons_labels': []}}
+
+chewing gum: [196,684,557,954]

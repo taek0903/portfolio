@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serving Robot UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html,
+      body {
+        min-height: 100%;
+        margin: 0;
+      }
+
+      #root {
+        min-height: 100%;
+      }
+
+      body {
+        overflow-x: hidden;
+        overflow-y: auto;
+        font-family: "Pretendard", "SUIT", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(96, 165, 250, 0.2), transparent 32%),
+          radial-gradient(circle at top right, rgba(45, 212, 191, 0.16), transparent 30%),
+          linear-gradient(180deg, #f8fbff 0%, #eef4fb 100%);
+      }
+
+      .status-scrollbar {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(148, 163, 184, 0.55) transparent;
+      }
+
+      .status-scrollbar::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      .status-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      .status-scrollbar::-webkit-scrollbar-thumb {
+        border-radius: 9999px;
+        background: rgba(148, 163, 184, 0.5);
+      }
+    </style>
+  </head>
+  <body class="min-h-screen">
+    <div id="root" class="min-h-screen w-full">
+      <div class="min-h-screen w-full flex items-center justify-center text-gray-400 text-sm">
+        UI를 불러오는 중입니다...
+      </div>
+    </div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/htm@3.1.1/dist/htm.umd.js"></script>
+    <script src="./rosClient.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

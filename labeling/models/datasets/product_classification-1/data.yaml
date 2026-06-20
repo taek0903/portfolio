@@ -1,0 +1,15 @@
+names:
+- can_coke_decaf
+- can_coke_zero
+- can_pepsi
+- can_pepsi_zero
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: product_classification-vo9mz
+  url: https://universe.roboflow.com/s-workspace-orwiy/product_classification-vo9mz/dataset/1
+  version: 1
+  workspace: s-workspace-orwiy
+test: ../test/images
+train: ../train/images
+val: ../valid/images

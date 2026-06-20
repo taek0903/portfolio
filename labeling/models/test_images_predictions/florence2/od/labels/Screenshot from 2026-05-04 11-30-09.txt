@@ -1,0 +1,5 @@
+Task: OD
+Raw: {'<OD>': {'bboxes': [[911, 540, 1348, 837], [692, 328, 1117, 734]], 'labels': ['human hand', 'tin can']}}
+
+human hand: [911,540,1348,837]
+tin can: [692,328,1117,734]

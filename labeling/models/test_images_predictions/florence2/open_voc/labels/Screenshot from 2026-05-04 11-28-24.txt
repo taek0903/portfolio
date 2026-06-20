@@ -1,0 +1,8 @@
+Task: OPEN_VOC
+Query: chewing gum
+Raw: {'<OPEN_VOCABULARY_DETECTION>': {'bboxes': [[1029, 240, 1311, 435], [1044, 467, 1339, 643], [831, 556, 1092, 747], [774, 355, 1008, 536]], 'bboxes_labels': ['chewing gum', 'chewing gum', 'chewing gum', 'chewing gum'], 'polygons': [], 'polygons_labels': []}}
+
+chewing gum: [1029,240,1311,435]
+chewing gum: [1044,467,1339,643]
+chewing gum: [831,556,1092,747]
+chewing gum: [774,355,1008,536]

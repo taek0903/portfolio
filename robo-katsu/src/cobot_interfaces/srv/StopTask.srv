@@ -1,0 +1,17 @@
+# Stop type constants
+uint8 STOP_NORMAL = 0         # Graceful stop (decelerate)
+uint8 STOP_IMMEDIATE = 1      # Immediate stop (quick)
+uint8 STOP_EMERGENCY = 2      # Emergency stop
+uint8 PAUSE = 3               # Pause motion (can resume)
+uint8 RESUME = 4              # Resume paused motion
+uint8 SAFE_STOP_RECOVER = 5   # (Legacy) Release DSR SAFE_STOP → same as TO_STANDBY
+uint8 TO_STANDBY = 6          # Auto recovery: SAFE_STOP/OFF → STANDBY
+uint8 TO_RECOVERY = 7         # Manual recovery: SAFE_STOP2/OFF2 → RECOVERY (freedrive)
+uint8 RECOVERY_DONE = 8       # Complete manual recovery: RECOVERY → STANDBY
+
+# Request
+uint8 stop_type
+---
+# Response
+bool success
+string message

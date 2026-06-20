@@ -1,0 +1,4 @@
+Task: OD
+Raw: {'<OD>': {'bboxes': [[896, 271, 1203, 711]], 'labels': ['tin can']}}
+
+tin can: [896,271,1203,711]

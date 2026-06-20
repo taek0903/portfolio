@@ -1,0 +1,4 @@
+Task: OD
+Raw: {'<OD>': {'bboxes': [[726, 494, 1175, 833]], 'labels': ['drinking straw']}}
+
+drinking straw: [726,494,1175,833]

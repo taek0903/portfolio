@@ -1,0 +1,4 @@
+Task: CAPTION
+Raw: {'<CAPTION>': 'Four cans of soda sitting on top of a white table.'}
+
+Caption: Four cans of soda sitting on top of a white table.

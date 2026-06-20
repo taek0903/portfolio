@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>cobot1</name>
+  <version>0.0.1</version>
+  <description>Cobot task control system with Motion Executor and Task Controller</description>
+  <maintainer email="woody.myung@gmail.com">woody</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>cobot_interfaces</depend>
+  <depend>std_msgs</depend>
+  <depend>dsr_msgs2</depend>
+
+  <!--
+    firebase-admin 은 rosdep 레지스트리에 없는 pip 패키지이므로 여기에 직접
+    명시하지 않는다. ui_bridge.py Firebase sync 를 쓰려면 다음을 한 번 실행:
+        pip install firebase-admin
+    미설치 시에는 REST 모드로 자동 fallback 된다.
+  -->
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
